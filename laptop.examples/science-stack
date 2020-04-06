@@ -1,0 +1,7 @@
+! dev-python/numpy lapack
+! sci-libs/scipy
+
+! media-gfx/inkscape -spell
+media-gfx/povray -X
+# Don't forget to +latex later
+! sci-visualization/gnuplot cairo -X -qt5 -wxwidgets

@@ -1,0 +1,18 @@
+dev-vcs/git
+dev-vcs/tig
+
+app-misc/mc
+app-misc/tmux
+
+app-arch/p7zip
+sys-fs/inotify-tools
+! sys-process/parallel
+
+! media-libs/flac
+! media-libs/mutagen
+! media-sound/lame
+! dev-python/discogs-client
+
+! dev-python/flask
+
+! net-misc/youtube-dl

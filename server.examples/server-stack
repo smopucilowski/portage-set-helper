@@ -1,0 +1,9 @@
+net-misc/openssh
+app-admin/sshguard
+net-dns/dnsmasq
+net-fs/samba
+
+! net-p2p/transmission
+- dev-libs/libb64
+
+media-fonts/ubuntu-font-family

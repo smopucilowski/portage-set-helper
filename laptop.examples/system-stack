@@ -1,0 +1,19 @@
+! sys-apps/systemd dns-over-tls gnuefi
+! sys-kernel/gentoo-sources symlink
+! sys-kernel/linux-firmware savedconfig
+! sys-kernel/genkernel
+! sys-firmware/intel-microcode hostonly initramfs
+app-portage/gentoolkit
+
+sys-block/parted
+! sys-fs/btrfs-progs -convert
+sys-fs/dosfstools
+
+! net-wireless/iwd -monitor
+! sys-apps/usbutils
+! sys-power/intel-undervolt
+! sys-power/powertop
+
+app-editors/vim
+app-vim/gentoo-syntax
+app-shells/bash-completion

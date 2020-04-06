@@ -1,0 +1,21 @@
+! sys-apps/systemd dns-over-tls gnuefi
+! sys-kernel/gentoo-sources
+! =sys-kernel/gentoo-sources-4.19.97
+! sys-kernel/linux-firmware
+! sys-firmware/intel-microcode hostonly initramfs
+app-portage/gentoolkit
+
+sys-apps/smartmontools -daemon
+! sys-fs/btrfs-progs -convert
+net-fs/cifs-utils -ads
+sys-fs/dosfstools
+! sys-fs/zfs
+! sys-fs/zfs-kmod
+
+#sys-apps/ipmitool
+sys-apps/pciutils
+
+app-editors/vim -minimal
+- app-editors/vim-core -minimal
+app-vim/gentoo-syntax
+app-shells/bash-completion

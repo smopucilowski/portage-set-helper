@@ -1,0 +1,50 @@
+# Just enough USE settings so I can run foobar2000
+app-emulation/wine-vanilla -cups -faudio -gecko -ldap -mono -mp3 -opengl -sdl -ssl -xcomposite -xml
+
+# Necessary ABI 32-bit changes; don't explicitly install these ebuilds
+- app-arch/bzip2 abi_x86_32
+- app-arch/lz4 abi_x86_32
+- dev-libs/expat abi_x86_32
+- dev-libs/libgcrypt abi_x86_32
+- dev-libs/libgpg-error abi_x86_32
+- dev-util/pkgconf abi_x86_32
+- media-libs/alsa-lib abi_x86_32
+- media-libs/fontconfig abi_x86_32
+- media-libs/freetype abi_x86_32
+- media-libs/lcms abi_x86_32
+- media-libs/libjpeg-turbo abi_x86_32
+- media-libs/libpng abi_x86_32
+- media-libs/libwebp abi_x86_32
+- media-libs/tiff abi_x86_32
+- media-libs/vulkan-loader abi_x86_32
+- sys-apps/attr abi_x86_32
+- sys-apps/dbus abi_x86_32
+- sys-apps/systemd abi_x86_32
+- sys-apps/util-linux abi_x86_32
+- sys-devel/gettext abi_x86_32
+- sys-libs/cracklib abi_x86_32
+- sys-libs/db abi_x86_32
+- sys-libs/gpm abi_x86_32
+- sys-libs/libcap abi_x86_32
+- sys-libs/ncurses abi_x86_32
+- sys-libs/pam abi_x86_32
+- sys-libs/zlib abi_x86_32
+- virtual/jpeg abi_x86_32
+- virtual/libcrypt abi_x86_32
+- virtual/libiconv abi_x86_32
+- virtual/libintl abi_x86_32
+- virtual/libudev abi_x86_32
+- virtual/pkgconfig abi_x86_32
+- x11-base/xcb-proto abi_x86_32
+- x11-libs/libX11 abi_x86_32
+- x11-libs/libXau abi_x86_32
+- x11-libs/libXcursor abi_x86_32
+- x11-libs/libXdmcp abi_x86_32
+- x11-libs/libXext abi_x86_32
+- x11-libs/libXfixes abi_x86_32
+- x11-libs/libXi abi_x86_32
+- x11-libs/libXinerama abi_x86_32
+- x11-libs/libXrandr abi_x86_32
+- x11-libs/libXrender abi_x86_32
+- x11-libs/libXxf86vm abi_x86_32
+- x11-libs/libxcb abi_x86_32

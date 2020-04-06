@@ -1,0 +1,14 @@
+! dev-python/matplotlib
+! dev-python/networkx
+! dev-python/numpy lapack
+! dev-python/pandas
+! sci-libs/scipy
+! sci-visualization/gnuplot cairo latex
+
+media-gfx/imagemagick png
+media-gfx/povray
+media-video/ffmpeg webp x264 x265
+
+app-text/texlive
+dev-texlive/texlive-latexextra
+dev-tex/latexdiff
